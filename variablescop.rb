@@ -63,6 +63,13 @@ puts a
 puts b         # is b accessible here, in the outer scope?  = 5
 
 
+arr = [1, 2, 3]
+for i in arr do
+  a = 5      # a is initialized here
+end
+puts a       # is it accessible here?
+
+
 # constant declaration:    they start with Capitalization
 #MY_CONSTANT = ' I am available throughout your app'
 
