@@ -36,12 +36,6 @@
 # end
 
 
-# puts "What is your first_name?"
-# first_name = gets.chomp
-# puts "What is your last_name?"
-# last_name = gets.chomp
-# puts  first_name +  " " + last_name   # or
-#puts "Great. So your full name is " + first_name + " " + last_name
 
 
 # x = 0
@@ -51,3 +45,14 @@
 # puts x      =3
 
 
+
+
+
+first = 'apple'
+second = 'prune'
+third = 'carrot'
+
+#first, second, third = ARGV
+puts "Your first variable is: #{first}"
+puts "Your second variable is: #{second}"
+puts "Your third variable is: #{third}"

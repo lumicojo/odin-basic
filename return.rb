@@ -61,3 +61,50 @@ end
 result = add_three(5)
 puts "Result: #{result}"
 
+
+
+def test
+  a = 100
+  b = 200
+  c = 300
+return a,b,c
+end
+var = test
+puts var
+
+
+class Accounts
+  def reading_charge
+  end
+  def Accounts.return_date
+  end
+end
+
+puts Accounts.return_date
+
+
+
+#The yield Statement
+def test
+  a = 10
+  b = 20
+
+  yield a, b
+  puts "You are in the method test"
+  yield a, b
+end
+
+test { |a, b| puts "you are in the block" }
+
+
+
+
+# def test
+#    yield 5
+#    puts "You are in the method test"
+#    yield 100
+# end
+# test {|i| puts "You are in the block #{i}"}
+
+
+
