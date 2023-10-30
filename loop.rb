@@ -9,15 +9,18 @@
 
 
 
-#      next statement
-num = 0
 
-while num < 100
-    num += 1
-    if (num % 2 == 0)
-        next
-    end
-    print "#{num} "
+#  Until
+
+i = 0
+until i >= 10 do
+ puts "i is #{i}"
+ i += 1
+end
+
+
+until gets.chomp == "yes" do
+  puts "Do you like Pizza?"
 end
 
 
@@ -26,20 +29,27 @@ end
 hours_left = 12
 
 until hours_left == 0
-
     if hours_left == 1
         puts "There is #{hours_left} hour left"
     else
         puts "There are #{hours_left} hours left"
     end
-
     hours_left -= 1
 end
 
 
-#  for statement
-for i in 0..9 do
 
+
+x = gets.chomp.to_i
+until x < 0
+  puts x
+  x -= 1
+end
+puts "Done!"
+
+#  for statement
+
+for i in 0..9 do
   puts "#{i}"
 end
 
@@ -51,7 +61,30 @@ for i in 0..planets.length
 end
 
 
+x = gets.chomp.to_i
+for i in 1..x do
+  puts x - i
+end
+puts "Done!"
 
+
+
+x = [1, 2, 3, 4, 5]
+for i in x.reverse do
+  puts i
+end
+puts "Done!"
+
+######### Times loop
+
+5.times do
+  puts "Hello"
+end
+
+
+5.times do |num|
+  puts "Alternate num #{num}"
+end
 
 # each method
 
@@ -65,12 +98,9 @@ end
 
 
 
-#  break statemnet
-while true
-  r = 1 + rand(30)
-    print "#{r} "
-  if r == 22
-    break
-  end
-end
+
+
+
+
+
 

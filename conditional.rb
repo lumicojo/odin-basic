@@ -31,60 +31,46 @@ else
   puts "release Kevin the octopus"
 end
 
-# and &&   or ||
-# &&
-if 1 < 2 && 5 < 6
-  puts "Party at Kevin's!"
-end
-
-#  and
-if 1 < 2 and 5 < 6
-  puts "Party at Kevin's!"
-end
-
-
-#  ||
-if 10 < 2 || 5 < 6 #=> although the left expression is false, there is a party at Carmen's because the right expression returns true
-  puts "Party at Carmen's!"
-end
-
-
-# or
-if 10 < 2 or 5 < 6
-  puts "Party at Carmen's!"
-end
-
 
 
 num = gets.to_i
-
 if num > 0 then
-
-    puts "num positive"
-    puts "num  #{num}"
+  puts "num positive"
+  puts "num  #{num}"
 end
 
 
 
 print "Enter a number: "
-
 num = gets.to_i
-
 if num < 0
-
-    puts "#{num} is negative"
+  puts "#{num} is negative"
 elsif num == 0
-
-   puts "#{num} is zero"
+  puts "#{num} is zero"
 elsif num > 0
-
-   puts "#{num} is positive"
+  puts "#{num} is positive"
 end
 
 
 
 
-# conditional.rb
+# conditional loop.rb
+
+# next_loop.rb
+
+i = 0
+loop do
+  i = i + 2
+  if i == 4
+    next        # skip rest of the code in this iteration
+    #break  or
+  end
+  puts i
+  if i == 10
+    break
+  end
+end
+
 
 puts "Put in a number"
 a = gets.chomp.to_i
@@ -102,7 +88,6 @@ end
 # 1
 puts "Put in a number"
 x = gets.chomp.to_i
-
 if x == 5
   puts "x is 5"
 end
@@ -120,7 +105,6 @@ end
 # 3
 puts "Put in a number"
 x = gets.chomp.to_i
-
 if x == 2
   puts "x is 2"
 else

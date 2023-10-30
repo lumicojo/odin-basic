@@ -33,3 +33,7 @@ if door == "1"
     puts "Well, doing %s is probably better.  Bear runs away." % bear
   end
 end
+
+
+
+if statement

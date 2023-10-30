@@ -50,3 +50,37 @@ end
 if cats > 20 || dogs < 30
   puts "cats are more then dogs"
 end
+
+
+
+
+
+#  While
+
+$i = 0
+$num = 5
+
+while $i < $num  do
+   puts("Inside the loop i = #$i" )
+   $i +=1
+end
+
+
+
+#until
+
+$i = 0
+$num = 5
+
+until $i > $num  do
+   puts("Inside the loop i = #$i" )
+   $i +=1;
+end
+
+
+
+for i in 0..5
+  puts "Value of local variable is #{i}"
+end
+
+
