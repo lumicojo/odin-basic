@@ -1,5 +1,5 @@
 
-This 2 hashes are the same
+#This 2 hashes are the same
 { :one => "eins", :two => "zwei", :three => "drei" }
 { one: "eins", two: "zwei", three: "drei" }
 
