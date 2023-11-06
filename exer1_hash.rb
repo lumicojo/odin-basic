@@ -7,6 +7,12 @@ family = {  uncles: ["bob", "joe", "steve"],
             brothers: ["frank","rob","david"],
             aunts: ["mary","sally","susan"]
           }
-puts family
-puts family.fetch("keys")
+
+imediate_family = family.select do |k, v|
+  k == :sisters || k == :brothers
+end
+arr = imediate_family.values.flatten
+p arr
+
+
 
