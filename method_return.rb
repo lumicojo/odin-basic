@@ -17,7 +17,7 @@ puts even_odd("Ruby")
 
 def even_odd(num)
   unless  num.is_a? Numeric
-    "Number was entered."    #  i took of the word return
+    "Number was entered."    #  I took of the word return
   end
   if num % 2 == 0
     "That is an even number."
