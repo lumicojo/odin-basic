@@ -9,13 +9,13 @@ def isogram?(string)
   unique_length = string_array.uniq.length
   original_length == unique_length
 end
-
 isogram?("Odin")
 
 
 
-require 'pry'
 
+
+require 'pry'
 def yell_greeting(string)
   name = string
 
