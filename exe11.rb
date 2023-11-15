@@ -13,10 +13,12 @@ contacts = {
   :phone=>"123-234-3454"
   }
 }
-# Access Joe email:
-joe_email = contacts["Joe Smith"][:email]
-puts "Joe's email: #{joe_email}"
-# Access Sally phone num
-sally_phone = contacts["Sally Johnson"][:phone]
-puts "Sally's phone number: #{sally_phone}"
+# # Access Joe email:
+# joe_email = contacts["Joe Smith"][:email]
+# puts "Joe's email: #{joe_email}"
+# # Access Sally phone num
+# sally_phone = contacts["Sally Johnson"][:phone]
+# puts "Sally's phone number: #{sally_phone}"
 
+puts "Joe's email is: #{contacts["Joe Smith"][:email]}"
+puts "Sally's phone number is: #{contacts["Sally Johnson"][:phone]}"
