@@ -24,6 +24,9 @@ my_numbers = [5, 6, 7, 8]
 p my_numbers.reduce(1000) {|sum, number| sum + number}   # = 1026
 
 
+array = [1,2,3,4,5,6,7,8,100]
+p array.inject(0){|running_total, item| running_total + item }
+
 
 
 votes = ["Bob's Dirty Burger Shack", "St. Mark's Bistro", "Bob's Dirty Burger Shack"]
