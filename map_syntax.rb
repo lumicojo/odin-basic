@@ -12,6 +12,9 @@ array = %w(a b c)
 p array.map.with_index { |ch, idx| [ch, idx] }
   # = [["a", 0], ["b", 1], ["c", 2]]
 
+array = %w[1, 2, 3]
+#p array.map { |n| n.to_i}
+p array.map(&:to_i)
 
 #Ruby Map Shorthand  (map &)
 p ["11", "21", "5"].map(&:to_i) #= [11, 21, 5]

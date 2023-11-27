@@ -14,3 +14,5 @@ array.map { |str| str.to_i }
 # convert hash values to symbols
 hash = { bacon: "protein", apple: "fruit" }
 hash.map { |k,v| [k, v.to_sym] }.to_h  # {:bacon=>:protein, :apple=>:fruit}
+p hash.map { |k,v| v.size } # [7, 5]
+p hash.map { |k,v| [k,v.size]} [[:bacon, 7], [:apple, 5]]
