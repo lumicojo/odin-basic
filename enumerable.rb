@@ -20,3 +20,5 @@ p friends.select {|friend| friend != 'Brian'}
 ##################   or use reject ven better
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 p friends.reject {|friend| friend == 'Brian'}
+
+
