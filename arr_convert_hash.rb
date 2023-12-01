@@ -15,3 +15,4 @@ data_hash = data_arr.inject({}) do |hsh, v|
   hsh.merge({v[0] => v[1]})
 
 end
+
