@@ -12,6 +12,7 @@ p vehicles[:caleb][:year]
 
 
 # Adding and removing data
+# Add nested hash
 vehicles[:dave] = {year: 2021, make: "Ford", model: "Escape"}
 p vehicles
 #add a new key/value pair to a nested hash
